@@ -2,8 +2,8 @@
   "name": "@vivayue/viva-paging",
   "version": "0.1.0",
   "author": "viva <viva68@163.com>",
-  "private": true,
   "main": "./dist/viva-paging.common.js",
+  "repository": "https://github.com/vivayue/pager",
   "files": [
     "dist",
     "src",
