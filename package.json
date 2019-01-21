@@ -1,9 +1,12 @@
 {
-  "name": "@vivayue/viva-paging",
+  "name": "@vivayue/paging",
+  "description": "paging for vue2",
   "version": "0.1.0",
   "author": "viva <viva68@163.com>",
   "main": "./dist/viva-paging.common.js",
+  "license": "MIT",
   "repository": "https://github.com/vivayue/pager",
+  "private": false,
   "files": [
     "dist",
     "src",
