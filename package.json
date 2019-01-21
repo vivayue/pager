@@ -3,9 +3,18 @@
   "version": "0.1.0",
   "author": "viva <viva68@163.com>",
   "private": true,
+  "main": "./dist/viva-paging.common.js",
+  "files": [
+    "dist",
+    "src",
+    "public",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle":"vue-cli-service build --target lib --name viva-paging ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
