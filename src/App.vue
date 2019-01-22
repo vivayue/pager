@@ -20,7 +20,6 @@ export default {
   data() {
     return {
       current: 1, // 当前页
-      open: false,
       total:150, // 总记录数
       pagesize: 15, // 一页多少条
       pageCount: 7 // 页码按钮的数量，当总页数超过该值时会折叠
