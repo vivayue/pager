@@ -1,7 +1,7 @@
 {
   "name": "@vivayue/viva-paging",
   "description": "paging for vue2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "viva <viva68@163.com>",
   "main": "./dist/viva-paging.common.js",
   "license": "MIT",
@@ -19,6 +19,9 @@
     "build": "vue-cli-service build",
     "build-bundle":"vue-cli-service build --target lib --name viva-paging ./src/components/index.js",
     "lint": "vue-cli-service lint"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.0"
   },
   "dependencies": {
     "vue": "^2.5.21"
