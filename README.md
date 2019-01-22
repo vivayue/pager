@@ -13,11 +13,11 @@
 <paging :page-size="pagesize" :page-count="pageCount" :total.sync="total" :current.sync="current" @change="changePage"></paging>
 ```
 3、参数说明
-参数 | 默认值(type) | 描述
-----|------|----
-current | 1(number)  | 当前页
-total | 0(number)  | 总记录数
-pagesize | 15(number)  | 一页多少条
+参数      | 默认值(type)| 描述
+----------|------------|-------------------------------------
+current   | 1(number)  | 当前页
+total     | 0(number)  | 总记录数
+pagesize  | 15(number) | 一页多少条
 pageCount | 7(number)  | 页码按钮的数量，当总页数超过该值时会折叠
 
 3、调用方法
